@@ -1,0 +1,112 @@
+*{
+    font-family: "Rubik", sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 60px;
+    background-color:#3e5e6d;
+}
+
+ .nav-img {
+    border-radius: 50%;
+ }
+
+
+  .perfil_img {
+    display: flex;
+    font-size: 32px;
+    text-transform: uppercase;
+  }
+
+ .perfil {
+    width: 30%;
+    height: 150%;
+    border-radius:50%;
+    position: relative;
+    left: 30px;
+    right: 0px;
+    bottom: 70px;
+    margin-bottom:-20%;
+    }
+
+ .apresentacao1 {
+    position: relative;
+    font-family:'Roboto', sans-serif;
+    font-size: 30px;;
+    left:20%;
+    top: -300%;
+  }
+
+  .nome{
+    font-size: 60px;
+  }
+  .Objetivo-titulo,
+  .projetos,
+  .Saiba-mais-titulo {
+    color: #686C76;
+    font-size: 40px;
+  }
+  .sub_2 {
+    color:#364D58;
+  }
+
+  .apresentacao2 {
+    position: relative;
+    width: 600px;
+    height: 400;
+    font-family:'Roboto', sans-serif;
+    font:100;
+    left:10%;
+    top: 150%;
+  }
+ 
+ .objetivo {
+    position: relative;
+    width: 400%;
+    height: 200%;
+    font-family:'Roboto', sans-serif;
+    font:100px;
+    left: 10%;
+    top: 250%;
+ }
+.container {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    
+}
+  .card_1,
+  .card_2,
+  .card_3 {
+    display: inline-block;
+    height: 300px;
+    width: 225px;
+    border-radius: 4px;
+    background-color: #364D58;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
+    overflow: hidden;
+    margin-top: 2%;
+  }
+
+  .container_1 {
+    position: relative;
+    width: 400%;
+    height: 200%;
+    font:100px;
+    left: 10%;
+    top: 150%;
+  }
+ .container_{
+background-color: #000608;
+
+ }
+ .Textarea2 {
+    font-size: 15px;
+    color: aliceblue;
+}
+.col-sm {
+    color: aliceblue;
+}
