@@ -2,36 +2,36 @@
     font-family: "Rubik", sans-serif;
     letter-spacing: 1px;
     line-height: 30px;
+    background-image: rgba(225, 183, 238, 0.425);
   }
-
-  .navbar {
-    display: flex;
-    gap: 60px;
-    background-color:#3e5e6d;
-}
-
- .nav-img {
-    border-radius: 50%;
+ #intro{
+  background-color: pink;
+  padding-bottom: 25px;
+  padding-top: 40px;
  }
 
-
-  .perfil_img {
-    display: flex;
-    font-size: 32px;
-    text-transform: uppercase;
-  }
-
- .perfil {
-    width: 30%;
-    height: 150%;
-    border-radius:50%;
-    position: relative;
-    left: 30px;
-    right: 0px;
-    bottom: 70px;
-    margin-bottom:-20%;
-    }
-
+ .container{
+  text-align: center;
+ }
+ .nome{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(234, 71, 147);
+  font-size: 3em;
+  margin-top: -20px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+ }
+ .links {
+  -webkit-tap-highlight-color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: -60px;
+  background-color: transparent;
+ }
  .apresentacao1 {
     position: relative;
     font-family:'Roboto', sans-serif;
@@ -42,6 +42,7 @@
 
   .nome{
     font-size: 60px;
+    
   }
   .Objetivo-titulo,
   .projetos,
@@ -85,7 +86,7 @@
     height: 300px;
     width: 225px;
     border-radius: 4px;
-    background-color: #364D58;
+    background-color: #db2a71b2;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
     overflow: hidden;
     margin-top: 2%;
@@ -109,4 +110,70 @@ background-color: #000608;
 }
 .col-sm {
     color: aliceblue;
+}
+
+.box {
+  color: white ;
+  left: 40%;
+   background-color:rgba(12, 123, 151, 0.8);
+   padding: 20px; 
+}
+
+.legend {
+  border: 1px solid rgba(233, 188, 206, 0.338);
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(229, 14, 165, 0.808);
+  border-radius: 8px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputUser {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+.labelInput{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid~ .labelInput{
+  top:-20px;
+  font-size: 15px;
+  color: rgba(250, 245, 249, 0.925);
+}
+ 
+#data-nascimento {
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+#submit{
+  background-image: linear-gradient(to right, rgba(247, 173, 225, 0.861),rgba(211, 68, 166, 0.861));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#submit:hover {
+  background-image:linear-gradient(to right, rgba(151, 75, 130, 0.861),rgba(218, 42, 145, 0.929));
 }
