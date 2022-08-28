@@ -1,8 +1,8 @@
 *{
+    font-size: 20px;
     font-family: "Rubik", sans-serif;
-    letter-spacing: 1px;
-    line-height: 30px;
-    background-image: rgba(225, 183, 238, 0.425);
+    letter-spacing: 1,5px;
+    line-height: 40px;
   }
  #intro{
   background-color: pink;
@@ -32,48 +32,26 @@
   margin-top: -60px;
   background-color: transparent;
  }
- .apresentacao1 {
-    position: relative;
-    font-family:'Roboto', sans-serif;
-    font-size: 30px;;
-    left:20%;
-    top: -300%;
-  }
+ 
+.sobremim{
+padding: 70px;
+padding-top: 15px;
+}
 
-  .nome{
-    font-size: 60px;
-    
-  }
+.objetivos{
+  padding: 70px;
+  padding-top: 20px;
+}
   .Objetivo-titulo,
   .projetos,
-  .Saiba-mais-titulo {
-    color: #686C76;
+  .sobremim-título {
+    color: rgba(12, 123, 151, 0.8);
     font-size: 40px;
-  }
-  .sub_2 {
-    color:#364D58;
+    text-align: center;
   }
 
-  .apresentacao2 {
-    position: relative;
-    width: 600px;
-    height: 400;
-    font-family:'Roboto', sans-serif;
-    font:100;
-    left:10%;
-    top: 150%;
-  }
- 
- .objetivo {
-    position: relative;
-    width: 400%;
-    height: 200%;
-    font-family:'Roboto', sans-serif;
-    font:100px;
-    left: 10%;
-    top: 250%;
- }
-.container {
+  .container {
+    padding: 20px;
     position: relative;
     left: 0%;
     top: 0%;
@@ -91,26 +69,6 @@
     overflow: hidden;
     margin-top: 2%;
   }
-
-  .container_1 {
-    position: relative;
-    width: 400%;
-    height: 200%;
-    font:100px;
-    left: 10%;
-    top: 150%;
-  }
- .container_{
-background-color: #000608;
-
- }
- .Textarea2 {
-    font-size: 15px;
-    color: aliceblue;
-}
-.col-sm {
-    color: aliceblue;
-}
 
 .box {
   color: white ;
@@ -176,4 +134,9 @@ background-color: #000608;
 }
 #submit:hover {
   background-image:linear-gradient(to right, rgba(151, 75, 130, 0.861),rgba(218, 42, 145, 0.929));
+}
+
+.page-footer {
+  background-color: pink;
+  padding-bottom: 25px;
 }
