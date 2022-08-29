@@ -58,20 +58,7 @@ background-color:beig;
     top: 0%;
     
 }
-  .card_1,
-  .card_2,
-  .card_3 {
-    display: inline-block;
-    height: 300px;
-    width: 225px;
-    border-radius: 4px;
-    background-color: rgb(231, 92, 140);
-    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
-    overflow: hidden;
-    margin-top: 2%;
-    color:beige ;
-    font-size:20px ;
-  }
+ 
 
 
 .page-footer {
