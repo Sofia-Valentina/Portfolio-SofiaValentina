@@ -1,1 +1,1 @@
-Portfólio criado com html e Css
+Portfólio criado com html, Css e Javascript.
