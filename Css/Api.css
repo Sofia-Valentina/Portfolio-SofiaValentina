@@ -1,0 +1,13 @@
+.Api{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(231, 92, 140);
+    color: white;
+    word-break: break-all;
+}
+

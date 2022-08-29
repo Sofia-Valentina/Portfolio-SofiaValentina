@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="/Css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/Css/Formulario.css" />
 </head>
 
 <body>
@@ -28,7 +29,6 @@
     </div>
   </section>
   <!-- intro/ -->
-  <br><br>
   <!-- apresentação -->
   <div class="sobremim" id="sobremim">
     <h1 class="sobremim-título">Sobre Mim</h1>
@@ -50,29 +50,30 @@
 <!-- objetivos -->
   <div class="container" id="projeto">
     <h3 class="projetos"> Projetos</h3>
-    <div class="card_1"></div>
-    <div class="card_2"></div>
-    <div class="card_3"></div>
+    <div class="card_1">Em breve</div>
+    <div class="card_2">Em breve</div>
+    <div class="card_3">Em breve</div>
   </div>
   <br><br>
+ 
   <!-- formulário -->
   <div class="box">
-    <form action="">
+    <form id="form" >
       <fieldset>
         <legend class="legend"><b>Contato</b></legend>
         <br><br>
         <div class="inputBox">
-          <input type="text" name="nome" id="nome" class="inputUser">
+          <input type="text" required="yes" name="nome" id="nome" class="inputUser required">
           <label for="nome" class="labelInput">Nome Completo</label>
         </div>
         <br><br>
         <div class="inputBox">
-          <input type="text" name="email" id="email" class="inputUser">
+          <input type="text" required="yes" name="email" id="email" class="inputUser required">
           <label for="email" class="labelInput">Email</label>
         </div>
         <br><br>
         <div class="inputBox">
-          <input type="tel" name="telefone" id="telefone" class="inputUser">
+          <input type="tel" required="yes" name="telefone" id="telefone" class="inputUser required">
           <label for="telefone" class="labelInput">Telefone</label>
         </div>
         <br><br>
@@ -87,11 +88,18 @@
         <label for="data-nascimento"><b>Data de Nascimento:</b></label>
         <input type="date" name="data-nascimento" id="data-nascimento">
         <br><br>
-        <input type="submit" name="submit" id="submit">
+        <button type="submit" name="submit" id="submit" onclick="validar()">Enviar</button>
       </fieldset>
     </form>
   </div>
   <!-- formulário -->
+   <!-- Api -->
+<div class="Api">
+  <h1>Github API</h1>
+  <hr/>
+  <ul></ul>
+</div>
+<!-- Api -->
   <!-- rodapé -->
 <footer class="page-footer">
 <div class="container">
@@ -103,6 +111,10 @@
 </div>
 </footer>
 <!-- rodapé -->
+<!-- javascript -->
+<script type="text/javascript" src="/JS/script.js"></script>
+<script type="text/javascript" src="/JS/Api.js"></script>
+<!-- javascript -->
 </body>
 
 </html>
