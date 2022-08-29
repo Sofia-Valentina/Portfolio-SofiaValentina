@@ -15,7 +15,7 @@
  }
  .nome{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(234, 71, 147);
+  color:  rgb(231, 92, 140);
   font-size: 3em;
   margin-top: -20px;
   display: block;
@@ -65,7 +65,7 @@ background-color:beig;
     height: 300px;
     width: 225px;
     border-radius: 4px;
-    background-color: #db2a71b2;
+    background-color: rgb(231, 92, 140);
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
     overflow: hidden;
     margin-top: 2%;

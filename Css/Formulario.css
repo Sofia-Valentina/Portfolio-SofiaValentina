@@ -9,7 +9,7 @@
     border: 1px solid rgba(233, 188, 206, 0.338);
     padding: 10px;
     text-align: center;
-    background-color: rgba(229, 14, 165, 0.808);
+    background-color: rgb(231, 92, 140);
     border-radius: 8px;
   }
   
@@ -52,7 +52,7 @@
   }
   
   #submit{
-    background-image: linear-gradient(to right, rgba(247, 173, 225, 0.861),rgba(211, 68, 166, 0.861));
+    background-image: linear-gradient(to right, rgba(247, 173, 225, 0.861), rgb(231, 92, 140));
     width: 100%;
     border: none;
     padding: 15px;
