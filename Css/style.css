@@ -4,34 +4,6 @@
     letter-spacing: 1,5px;
     line-height: 40px;
   }
- #intro{
-  background-color: pink;
-  padding-bottom: 25px;
-  padding-top: 40px;
- }
-
- .container{
-  text-align: center;
- }
- .nome{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:  rgb(231, 92, 140);
-  font-size: 3em;
-  margin-top: -20px;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
- }
- .links {
-  -webkit-tap-highlight-color: transparent;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  text-decoration: none;
-  margin-top: -60px;
-  background-color: transparent;
- }
  
 .sobremim{
 padding: 70px;
@@ -64,4 +36,9 @@ background-color:beig;
 .page-footer {
   background-color: pink;
   padding-bottom: 25px;
+}
+
+.page-footer img {
+  display: block;
+    width: 100%;
 }

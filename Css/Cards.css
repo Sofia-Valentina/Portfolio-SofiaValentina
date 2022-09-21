@@ -1,6 +1,7 @@
 .card_1,
 .card_2,
 .card_3 {
+  justify-content: space-around;
   display: inline-block;
   height: 300px;
   width: 225px;
